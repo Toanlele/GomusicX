@@ -11,7 +11,7 @@ import (
 )
 
 func PlayframeCore(Mp3FlieSrc string) {
-	fileBytes, err := os.ReadFile("./src/" + Mp3FlieSrc + ".mp3")
+	fileBytes, err := os.ReadFile(AudioSourceFile + Mp3FlieSrc + ".mp3")
 
 	if err != nil {
 		panic("reading my-file.mp3 failed: " + err.Error())
