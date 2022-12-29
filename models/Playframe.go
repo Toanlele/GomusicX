@@ -18,7 +18,10 @@ func PlayframeCore(Mp3FlieSrc string) {
 	}
 	fmt.Println("音乐准备完备！！！")
 	fileBytesReader := bytes.NewReader(fileBytes)
-
+	// fileBytesReader, err := mp3.NewDecoder(fileBytes)
+	// if err != nil {
+	// 	panic("mp3.NewDecoder failed: " + err.Error())
+	// }
 	// Decode file
 	decodedMp3, err := mp3.NewDecoder(fileBytesReader)
 	if err != nil {
