@@ -16,3 +16,5 @@ ALSA is required. On Ubuntu or Debian, run this command:
 In most cases this command must be run by root user or through sudo command.
 ### FreeBSD, OpenBSD
 BSD systems are not tested well. If ALSA works, Oto should work.
+# usage method
+    Press the K key to play music, and press the Q key to exit the program
